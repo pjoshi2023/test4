@@ -24,6 +24,7 @@ group = 'io.curity.identityserver.plugins.authenticator'
 version = '1.0.0'
 description = 'Curity Oidc Claims Support Authenticator'
 java.sourceCompatibility = JavaVersion.VERSION_11
+test = '1'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
